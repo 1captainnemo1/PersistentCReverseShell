@@ -2,11 +2,15 @@
 
 A FUD Backdoor Reverse Shell coded in C for any Windows distribution, that will fire a decoy app in the foreground while connecting back to the attacker machine as a silent background process.
 
+<b>
 In additition to this , the malware will copy itself in the %appdata% folder , and make itself persistent ON BOOT , by adding a startup registry key in :HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run
 
 Thus at every boot, the malware will start a callback to the attacker machine, and will connect, provided the Listner, is on.
+</b>
 
+<b><i><u>
 Oh, did I mention , that the shell that YOU WILL GET WILL BE A "POWRSHELL" !!!!   
+</b></i></u>
 
 Change the IP to the attacker machine's IP and the port number to your desired port number and compile using: 
 <b>
